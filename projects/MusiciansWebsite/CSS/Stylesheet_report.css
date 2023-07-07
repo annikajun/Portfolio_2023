@@ -1,0 +1,36 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*{
+    max-width: 1500px;
+    min-width: 460px;
+}
+
+body{
+    margin-left: 20px;
+}
+h5{
+    line-height: 0%;
+}
+
+.row{
+    display: flex;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.code{
+    color: darkgreen;
+}

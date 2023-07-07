@@ -1,0 +1,48 @@
+
+.text1{
+  color: black;
+  margin-bottom: 20px;
+}
+
+h6{
+  font-weight: bold;
+}
+
+.main{
+background-color: rgb(196, 165, 144);
+}
+
+header{
+background-color:rgb(196, 165, 144)  ;
+}
+
+.footer{
+  background-color: rgb(154, 127, 110)!important;
+  z-index: 2 !important;
+}
+
+.social-icons ul li{
+  background-color: rgb(154, 127, 110)!important;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*not working*/
+@media (max-width:733px)  {
+  .carousel-item{
+    height:200px!important;
+  }
+}
+
+@media (max-width:414px)  {
+ 
+}
+
+@media (max-width:320px)  {
+ 
+}
