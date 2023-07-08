@@ -32,10 +32,16 @@ background-color:rgb(196, 165, 144)  ;
   width: 50%;
 }
 
-/*not working*/
-@media (max-width:733px)  {
-  .carousel-item{
-    height:200px!important;
+@media (max-width: 780px) {
+  .carouselLeft {
+    flex-direction: column !important;
+  }
+
+  .carouselRight {
+    flex-direction: column-reverse !important;
+  }
+  .col {
+    order: 2;
   }
 }
 
