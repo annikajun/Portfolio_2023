@@ -45,10 +45,12 @@ background-color:rgb(196, 165, 144)  ;
   }
 }
 
-@media (max-width:414px)  {
- 
-}
+/*@media (max-width:630px)  {*/
+/*  .navlist li{*/
+/*    background: rgb(154, 127, 110);*/
+/*  }*/
+/*}*/
 
 @media (max-width:320px)  {
- 
+
 }

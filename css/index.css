@@ -475,11 +475,70 @@ form .btn2{
 /*------- Media Queries -------*/
 
 @media screen and (max-width: 630px) {
-  .navlist a:not(:first-child) {display: none;}
+  .navlist a:not(:first-child) {
+    display: none;
+  }
+
   .navlist a.icon {
     float: right;
     display: flex;
     align-items: center;
+  }
+
+  .navlist {
+    position: absolute;
+    top: 100%;
+    right: -250px;
+    display: flex;
+    flex-direction: column;
+    /* Additional styling properties */
+  }
+  .topnav {
+    position: relative;
+  }
+
+
+}
+
+@media screen and (max-width: 600px) {
+  .navlist {
+    right: -220px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .navlist {
+    right: -200px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .navlist {
+    right: -180px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .navlist {
+    right: -160px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .navlist {
+    right: -150px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .navlist {
+    right: -140px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .navlist {
+    right: -130px;
   }
 }
 
@@ -743,7 +802,7 @@ form .btn2{
   }
   .navlist{
     display: none;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .bx-menu {
     display: block;
