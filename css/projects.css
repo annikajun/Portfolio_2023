@@ -18,7 +18,7 @@ background-color:rgb(196, 165, 144)  ;
 
 .footer{
   background-color: rgb(154, 127, 110)!important;
-  z-index: 2 !important;
+  z-index: 3 !important;
 }
 
 .social-icons ul li{
@@ -51,6 +51,15 @@ background-color:rgb(196, 165, 144)  ;
 /*  }*/
 /*}*/
 
-@media (max-width:320px)  {
+@media (max-width:600px)  {
+  .colText{
+    width:85%
+  }
+  .carousel-control-prev-icon {
+    margin-left: 20px;
+  }
+  .carousel-control-next-icon {
+    margin-right: 20px;
+  }
 
 }
