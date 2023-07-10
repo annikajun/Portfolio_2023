@@ -1184,7 +1184,7 @@ form .btn2{
   }
 }
 
-/* Scroll behaviour */
+/* Scroll behavior */
 @media (min-height: 30em) {
   main {
     scroll-snap-type: y mandatory;
