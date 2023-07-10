@@ -496,13 +496,29 @@ form .btn2{
   .topnav {
     position: relative;
   }
-
-
 }
 
 @media screen and (max-width: 600px) {
-  .navlist {
+  .topnav{
+    background: white;
+    margin-right: -68px;
+    margin-left: -250px;
+    width: 200px;
+  }
+  .navlist a:hover{
+    border-bottom: 2px solid black;
+  }
+ .navlist {
     right: -220px;
+    top: 30px;
+    background: white;
+  }
+  .navlist a{
+    font-size: 25px;
+    line-height: 400%;
+    margin-right:10px;
+    color: #000000;
+
   }
 }
 
@@ -539,6 +555,24 @@ form .btn2{
 @media screen and (max-width: 375px) {
   .navlist {
     right: -130px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .navlist {
+    right: -120px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .navlist {
+    right: -110px;
+  }
+  .topnav{
+    background: white;
+    margin-right: -68px;
+    margin-left: -250px;
+    width: 150px;
   }
 }
 
