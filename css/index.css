@@ -1137,6 +1137,7 @@ form .btn2{
   }
   .contact h2{
     margin-top: 15px;
+    display: block;
   }
   .contact-img{
    display: none;
