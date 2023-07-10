@@ -282,18 +282,6 @@ section{
   transition: 1s;
 }
 
-#whitePhone{
-  display: none;
-}
-
-#whiteEmail{
-  display: none;
-}
-
-#whiteLinkedin{
-  display: none;
-}
-
 .contact{
   height: 100%;
   width: 100%;
@@ -359,6 +347,18 @@ section{
 .linkedin-info {
   display: none;
   padding: 20px;
+}
+
+#whitePhone{
+  display: none;
+}
+
+#whiteEmail{
+  display: none;
+}
+
+#whiteLinkedin{
+  display: none;
 }
 
 .contact-img {
@@ -588,10 +588,6 @@ form .btn2{
     display: block;
     text-align: left;
   }
-}
-
-@media screen and (max-width: 630px) {
-
 }
 
 @media (max-width: 1535px){
@@ -934,7 +930,6 @@ form .btn2{
     margin-left: 35%;
     margin-top:-2%;
   }
-
   .btn3 {
     margin-top: -60px;
     display: flex;
@@ -1032,6 +1027,15 @@ form .btn2{
     padding-left:10%;
     padding-right:10%;
   }
+  .phone-button {
+    font-size: 25px;
+  }
+  .email-button{
+    font-size: 25px;
+  }
+  .linkedin-button{
+    font-size: 25px;
+  }
 }
 
 @media (max-width: 375px){
@@ -1079,8 +1083,12 @@ form .btn2{
   .btn3{
     margin-top: -100px;
   }
+  .contact h2{
+    /* font-size: larger; */
+    display: none;
+  }
   .information{
-    margin-top: -8px;
+    margin-top: 15px;
   }
   .contact-below form{
     margin-top: 20px;
@@ -1090,6 +1098,15 @@ form .btn2{
     margin-top: -53px;
     margin-left: 40px;
     display: block;
+  }
+  .phone-button {
+    font-size: 23px;
+  }
+  .email-button{
+    font-size: 23px;
+  }
+  .linkedin-button{
+    font-size: 23px;
   }
 }
 
