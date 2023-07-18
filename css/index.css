@@ -500,25 +500,24 @@ form .btn2{
 
 @media screen and (max-width: 600px) {
   .topnav{
-    background: white;
+    background: black;
     margin-right: -68px;
     margin-left: -250px;
     width: 200px;
   }
   .navlist a:hover{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
   }
  .navlist {
     right: -220px;
     top: 30px;
-    background: white;
+    background: rgb(0, 0, 0);
   }
   .navlist a{
     font-size: 25px;
     line-height: 400%;
     margin-right:10px;
-    color: #000000;
-
+    color: #ffffff;
   }
 }
 
