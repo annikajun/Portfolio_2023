@@ -543,6 +543,10 @@ form .btn2{
   .navlist {
     right: -160px;
   }
+  .footer{
+    display: none;
+  }
+
 }
 
 @media screen and (max-width: 420px) {
