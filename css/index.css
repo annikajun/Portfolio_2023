@@ -501,7 +501,7 @@ form .btn2{
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 630px) {
   .topnav{
     background: white;
     margin-right: -68px;
@@ -1201,9 +1201,16 @@ form .btn2{
   }
 }
 
+
 @media (min-height: 30em) {
   .section_snap {
     height: 100vh;
+  }
+}
+
+@media (min-width: 631px) {
+  .navlist {
+    display: flex !important;
   }
 }
 
