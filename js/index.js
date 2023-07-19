@@ -6,6 +6,14 @@ function showNav(){
     menuIcon.classList.toggle("bx-x");
 }
 
+document.addEventListener('click', (event) => {
+    let menuIcon = document.querySelector("#menu-icon");
+    let navList = document.querySelector(".navlist");
+    if (!navList.contains(event.target) && !menuIcon.contains(event.target) && navList.style.display === "block"){
+        showNav();
+    }
+});
+
 function displayInfo(name){
     let whiteIcon = "white" + name
     let blackIcon = "black" + name
