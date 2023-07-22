@@ -13,7 +13,7 @@ background-color: rgb(196, 165, 144);
 }
 
 header{
-background-color:rgb(196, 165, 144)  ;
+  background-color:rgb(196, 165, 144)  ;
   margin-right: 100px;
 }
 
@@ -21,6 +21,9 @@ background-color:rgb(196, 165, 144)  ;
   margin-right: -100px;
 }
 
+.logo {
+  margin-left: 100px;
+}
 .footer{
   background-color: rgb(154, 127, 110)!important;
   z-index: 3 !important;
