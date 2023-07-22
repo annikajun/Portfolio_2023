@@ -14,6 +14,11 @@ background-color: rgb(196, 165, 144);
 
 header{
 background-color:rgb(196, 165, 144)  ;
+  margin-right: 100px;
+}
+
+.topnav{
+  margin-right: -100px;
 }
 
 .footer{
