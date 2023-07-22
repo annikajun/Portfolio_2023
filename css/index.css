@@ -7,8 +7,7 @@
   text-decoration: none;
   scroll-behavior: smooth;
 }
-
-header{
+header {
   position: fixed;
   top: 0;
   right: 0;
@@ -79,7 +78,7 @@ section{
   grid-template-columns: repeat(2,1fr);
   align-items: center;
   gap: 2rem;
-  overflow-y: scroll;
+  margin-top:-160px
 }  
 
 .home-text h1 {
@@ -952,7 +951,7 @@ form .btn2{
 @media (max-width:575px) {
   .home{ 
     align-items: center;
-    margin: 0;
+    margin-top:-160px;
     padding: 0;
   }
   .contact-below form{
@@ -1009,7 +1008,7 @@ form .btn2{
 @media (max-width: 414px){
   .home {
     align-items: center;
-    margin: 0;
+    margin-top:-160px;
     padding: 0;
   }
   .home-img img {
