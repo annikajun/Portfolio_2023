@@ -887,8 +887,8 @@ form .btn2{
     display: flex;
   }  
   .home-text{
-    margin-left: 10%;
     margin-top: 25%;
+    margin-left: 0;
     text-align: center;
   }
   .home-img img{
