@@ -93,7 +93,7 @@ section{
   font-weight: 600;
   color: rgb(255, 255, 255);
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 5px;
 }
 
 /* img/home.png version */
@@ -509,9 +509,9 @@ form .btn2{
     margin-left: -250px;
     width: 200px;
   }
-  .navlist a:hover{
-    border-bottom: 2px solid black;
-  }
+  /*.navlist a:hover{*/
+  /*  border-bottom: 2px solid white;*/
+  /*}*/
  .navlist {
     right: -220px;
     top: 30px;
