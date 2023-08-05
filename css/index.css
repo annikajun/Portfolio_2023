@@ -1179,13 +1179,34 @@ form .btn2{
     display: block;
   }
 }
-@media(max-height: 2000px){
+@media(max-height: 2500px){
   .contact h2{
     padding-top: 250px;
   }
   .projects h2{
     padding-top: 250px;
   }
+}
+
+@media(min-height: 1750px){
+  .about {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2,1fr);
+  }
+  .about-img img {
+    width: calc(100% - 25rem);
+    margin-top: 9.5%;
+    margin-bottom: 0;
+  }
+  .about-text h1{
+    font-size: 100px;
+    text-align: center;
+  }
+  .about-text h2{
+    font-size:40px;
+    margin: 25px
+  }
+
 }
 
 @media(max-height: 1250px){
