@@ -184,6 +184,7 @@ section{
   font-weight: 600;
   text-align: center;
   padding-top: 60px;
+  margin-bottom: 35px;
 }
 
 .work-list {
@@ -750,14 +751,14 @@ form .btn2{
   }
   .work-list{
     gap: 10px;
-    margin-left: 60px !important;
+    margin-left: 80px !important;
   }
   .about-text h2{
     font-size: 12px;
   }
   .work-list {
     display: flex;
-    gap: 30px;
+    gap: 50px;
   }
   .work{
     flex: 1;
@@ -770,7 +771,7 @@ form .btn2{
     width: 200px;
     object-fit: cover;
     border-radius: 10px;
-    margin-left: 15px;
+    margin-left: -20px;
   }
   .layer{
     width: 100%;
@@ -871,7 +872,7 @@ form .btn2{
     margin-top: -10px;
   }
   .work-list{
-    gap: 10px;
+    gap: 50px;
     margin-left: 40px;
   }
   .btn3 {
@@ -915,7 +916,7 @@ form .btn2{
     padding-right: 10%;
   }
   .work-list{
-    gap: 20px;
+    gap: 50px;
   }
   .contact-img{
     margin-top: -30px;
@@ -973,6 +974,9 @@ form .btn2{
   .project2{
     display: none;
   }
+  .work-list{
+    gap:30px;
+  }
 }
 
 @media (max-width:442px) {
@@ -1018,9 +1022,9 @@ form .btn2{
   .projects {
     padding-top: 12%;
   }
-  .work-list {
-    margin-right: 35px;
-  }
+  /*.work-list {*/
+  /*  margin-right: 35px;*/
+  /*}*/
   .work {
     margin-left: 0;
   }
@@ -1078,9 +1082,9 @@ form .btn2{
   .projects{
     padding-top:8%;
   }
-  .work-list{
-    margin-right: 35px;
-  }
+  /*.work-list{*/
+  /*  margin-right: 35px;*/
+  /*}*/
   .work{
     margin-left: 0px;
   }
@@ -1124,9 +1128,9 @@ form .btn2{
   .projects{
     padding-top: 5%;
   }
-  .work-list{
-    margin-right: 35px;
-  }
+  /*.work-list{*/
+  /*  margin-right: 35px;*/
+  /*}*/
   .work{
     margin-left: 0px;
   }
@@ -1173,6 +1177,12 @@ form .btn2{
     margin-top: 5px;
     margin-left: 40px;
     display: block;
+  }
+}
+
+@media(min-height: 1000px){
+  .projects h2{
+    padding-top: 250px;
   }
 }
 
