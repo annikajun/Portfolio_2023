@@ -79,7 +79,7 @@ section{
   align-items: center;
   gap: 2rem;
   margin-top:-160px
-}  
+}
 
 .home-text h1 {
   font-family: 'Permanent Marker', cursive;
@@ -1201,6 +1201,7 @@ form .btn2{
   .about-text h1{
     font-size: 100px;
     text-align: center;
+    margin-top: -250px;
   }
   .about-text h2{
     font-size:40px;
@@ -1211,6 +1212,23 @@ form .btn2{
     font-size: 30px;
   }
 
+  /*.home{*/
+  /*  grid-template-columns: auto;*/
+  /*  grid-template-rows: repeat(2, 1fr);*/
+  /*}*/
+
+  /*.home-text{*/
+  /*  order: 2;*/
+  /*  margin-left: 25%;*/
+  /*}*/
+
+  /*.home-img img{*/
+  /*  margin-left: 25%;*/
+  /*}*/
+
+  /*.home-text h4{*/
+  /*  margin-left:20%;*/
+  /*}*/
 }
 
 @media(max-height: 1250px){
