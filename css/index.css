@@ -1179,11 +1179,32 @@ form .btn2{
     display: block;
   }
 }
-
-@media(min-height: 1000px){
+@media(max-height: 2000px){
+  .contact h2{
+    padding-top: 250px;
+  }
   .projects h2{
     padding-top: 250px;
   }
+}
+
+@media(max-height: 1250px){
+  .projects h2{
+    padding-top: 125px;
+  }
+  .contact h2{
+    padding-top: 125px;
+  }
+
+}
+@media(max-height: 1000px){
+  .projects h2{
+    padding-top: 0;
+  }
+  .contact h2{
+    padding-top: 0;
+  }
+
 }
 
 @media (max-height: 800px){
