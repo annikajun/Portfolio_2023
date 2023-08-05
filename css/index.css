@@ -1288,20 +1288,28 @@ form .btn2{
     font-size: 30px;
   }
 
-  /*.home{*/
-  /*  grid-template-columns: auto;*/
-  /*  grid-template-rows: repeat(2, 1fr);*/
-  /*}*/
-  /*.home-text{*/
-  /*  order: 2;*/
-  /*  margin-left: 25%;*/
-  /*}*/
-  /*.home-img img{*/
-  /*  margin-left: 25%;*/
-  /*}*/
-  /*.home-text h4{*/
-  /*  margin-left:20%;*/
-  /*}*/
+  .home {
+    display: flex;
+  }
+  .home-text{
+    margin-top: 40%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .home-img img{
+    margin-left: 12%;
+    margin-top: 15%;
+    height: 600px;
+    width: 600px;
+  }
+  .home-text h4{
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .home-text h1{
+    font-size: 80px;
+    font-weight: 300;
+  }
 
 }
 
