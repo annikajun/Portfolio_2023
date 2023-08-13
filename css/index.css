@@ -987,7 +987,7 @@ form .btn2{
   }
 }
 
-@media (max-width:575px) {
+@media (max-width:576px) {
   .home{ 
     align-items: center;
     margin-top:-160px;
@@ -1348,9 +1348,13 @@ form .btn2{
   }
 }
 
-@media (max-height: 745px){
+@media (max-height: 777px){
   .btn3{
     display:none;
+  }
+
+  .contact-img img {
+    margin-bottom: 25%;
   }
 
   .contact-img{
