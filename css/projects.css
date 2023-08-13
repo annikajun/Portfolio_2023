@@ -75,3 +75,23 @@ header{
   }
 
 }
+
+
+@media(max-width: 830px){
+  .topnav{
+    margin-right: 0;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
+
+  .menu {
+    margin-right: 0;
+  }
+
+  header{
+    margin-right: 0;
+  }
+
+}
