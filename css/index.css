@@ -1334,10 +1334,10 @@ form .btn2{
 }
 @media(max-height: 1000px){
   .projects h2{
-    padding-top: 125px;
+    padding-top: 60px;
   }
   .contact h2{
-    padding-top: 125px;
+    padding-top: 60px;
   }
 
 }
