@@ -1224,7 +1224,7 @@ form .btn2{
 }
 @media(max-height: 2500px){
   .contact h2{
-    padding-top: 110px;
+    padding-top: 160px;
   }
   .projects h2{
     padding-top: 80px;
@@ -1323,7 +1323,7 @@ form .btn2{
 
   .about-img img {
     width: calc(100% - 25rem);
-    margin-top: 9.5%;
+    margin-top: 15%;
     margin-bottom: 0;
   }
 
