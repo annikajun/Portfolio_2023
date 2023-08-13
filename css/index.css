@@ -1000,6 +1000,13 @@ form .btn2{
     display: flex;
     justify-content: center;
   }
+
+  .projects h2{
+    padding-top: 60px !important;
+  }
+  .contact h2{
+    padding-top: 0 !important;
+  }
 }
 
 @media (max-width: 482px){
@@ -1239,7 +1246,7 @@ form .btn2{
   }
 
   .about-text h2 {
-    font-size: 40px;
+    font-size: 35px;
     margin: 60px
   }
 
@@ -1324,10 +1331,10 @@ form .btn2{
 }
 @media(max-height: 1000px){
   .projects h2{
-    padding-top: 0;
+    padding-top: 125px;
   }
   .contact h2{
-    padding-top: 0;
+    padding-top: 125px;
   }
 
 }
