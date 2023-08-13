@@ -1231,6 +1231,50 @@ form .btn2{
   }
 }
 
+@media(min-height: 1750px) and (max-width: 1400px){
+  .project2{
+    display: none;
+  }
+
+  .project3{
+    display: none;
+  }
+
+  .work img{
+    height: 1000px !important;
+  }
+
+  .projects h2{
+    padding-top:250px;
+  }
+
+  .fa-arrow-right{
+    font-size: 100px;
+  }
+
+  .layer h3{
+    font-size: 100px !important;
+  }
+
+  .phone-info p{
+    font-size: 50px;
+    margin-bottom: -95px;
+  }
+
+  .linkedin-info p{
+    font-size: 50px;
+    margin-bottom: -95px;
+  }
+
+  .email-info p{
+    font-size: 50px;
+    margin-bottom: -95px;
+  }
+
+
+
+}
+
 @media(min-height: 1750px) {
   .about {
     grid-template-columns: auto;
