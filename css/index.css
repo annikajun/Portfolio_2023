@@ -1358,7 +1358,6 @@ form .btn2{
   }
 
   .btn2 {
-    margin: -8px auto;
     line-height: 10px;
   }
 }
@@ -1371,6 +1370,8 @@ form .btn2{
     overflow-y: scroll;
   }
 }
+
+
 
 
 @media (min-height: 30em) {
