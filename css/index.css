@@ -1248,6 +1248,27 @@ form .btn2{
     font-size: 100px;
   }
 
+  .col-sm-6 {
+    width:100% !important;
+  }
+
+  form input, form textarea{
+    width: 80%;
+    padding: 40px;
+    margin: 15px auto;
+    font-size: 40px;
+    display: block;
+  }
+
+  .contact-img img{
+    width: 512px;
+    margin-bottom: 20%;
+  }
+
+  .btn4{
+    float: none;
+    margin-top: 80px;
+  }
   .layer p{
     display: none !important;
   }
