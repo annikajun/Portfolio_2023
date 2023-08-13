@@ -810,8 +810,10 @@ form .btn2{
     margin-left: -20px;
   }
   .layer{
-    width: 100%;
-    height: 0%;
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: -20px;
   }
   .layer.active {
     height: 100%;
@@ -1130,9 +1132,6 @@ form .btn2{
   /*}*/
   .work{
     margin-left: 0px;
-  }
-  .layer{
-    margin-left: 7px;
   }
   .btn3{
     margin-top: -100px;
