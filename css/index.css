@@ -1237,6 +1237,25 @@ form .btn2{
     grid-template-rows: 1fr 2fr;
   }
 
+  .work img{
+    height: 530px;
+  }
+
+  .work-list{
+    flex-direction: column;
+  }
+  .projects h2{
+    font-size: 100px;
+  }
+
+  .layer p{
+    display: none !important;
+  }
+
+  .layer h3{
+    font-size: 50px;
+  }
+
   .about-img img {
     width: calc(100% - 25rem);
     margin-top: 9.5%;
