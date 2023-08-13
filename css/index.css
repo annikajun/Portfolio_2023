@@ -92,7 +92,7 @@ section{
   font-size: 18px;
   font-weight: 600;
   color: rgb(255, 255, 255);
-  margin-top: 40px;
+  margin-top: 60px;
   margin-bottom: 5px;
 }
 
@@ -1011,7 +1011,7 @@ form .btn2{
     padding-top: 60px !important;
   }
   .contact h2{
-    padding-top: 0 !important;
+    padding-top: 10px !important;
   }
 }
 
@@ -1181,6 +1181,7 @@ form .btn2{
   }
   .about-img img {
     width: calc(50% - 2rem) !important;
+    margin-bottom: 46%;
   } 
   .about-text{
     margin-top:-40%;
@@ -1363,6 +1364,13 @@ form .btn2{
 
   .btn2 {
     line-height: 10px;
+  }
+}
+
+@media (max-height: 703px){
+
+  .contact-img img {
+    margin-bottom: 34%;
   }
 }
 
