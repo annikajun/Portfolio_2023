@@ -148,6 +148,10 @@ section{
   justify-content: center;
 }
 
+.about-text {
+  transform: translateY(-25px);
+}
+
 .btn2{
   background-color: rgb(196, 165, 144) ;
   border: 2px solid rgb(154, 129, 113) ;
