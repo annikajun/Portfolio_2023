@@ -24,6 +24,10 @@ header{
 .logo {
   margin-left: 100px;
 }
+
+.menu {
+  margin-right: -100px;
+}
 .footer{
   background-color: rgb(154, 127, 110)!important;
   z-index: 3 !important;
