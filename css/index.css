@@ -521,6 +521,10 @@ form .btn2{
     align-items: center;
   }
 
+  .contact-img img{
+    display:none;
+  }
+
   .navlist {
     position: absolute;
     top: 100%;
@@ -1439,7 +1443,7 @@ form .btn2{
   }
 
   .contact-img img {
-    margin-bottom: 25%;
+    margin-bottom:34.8%;
   }
 
   .contact-img{
