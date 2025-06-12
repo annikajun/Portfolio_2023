@@ -78,7 +78,7 @@ section{
   grid-template-columns: repeat(2,1fr);
   align-items: center;
   gap: 2rem;
-  margin-top:-160px
+/*   margin-top:-160px */
 }
 
 .home-text h1 {
