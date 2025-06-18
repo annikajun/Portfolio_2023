@@ -433,6 +433,76 @@ form .btn2{
   display: block;
 }
 
+.tooltip-wrapper {
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.tooltip-text::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  height: 10px;
+  width: 100%;
+  background: transparent;
+}
+
+.tooltip-text a {
+  color: #fff;
+  text-decoration: underline; /* optional, for visibility */
+}
+
+
+
+.tooltip-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #000;
+}
+
+/* Tooltip box */
+.tooltip-text {
+  visibility: hidden;
+  opacity: 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 8px 12px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 10;
+  top: 125%; /* appear below */
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: normal; /* allow wrapping */
+  min-width: max-content;
+  max-width: 260px; /* to avoid huge box */
+  box-sizing: border-box;
+  transition: opacity 0.3s;
+  pointer-events: none; /* default, changed below */
+}
+
+/* Show on hover over wrapper OR tooltip */
+.tooltip-wrapper:hover .tooltip-text,
+.tooltip-text:hover {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto; /* allow hover over the tooltip */
+}
+
+/* For click behavior */
+.tooltip-text.active {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+
 .footer {
   position: absolute;
   bottom: 0;
