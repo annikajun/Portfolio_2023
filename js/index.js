@@ -6,6 +6,19 @@ function showNav(){
     menuIcon.classList.toggle("bx-x");
 }
 
+function toggleTooltip(id) {
+    // Close all tooltips
+    document.querySelectorAll('.tooltip-text').forEach(el => {
+      if (el.id !== id) {
+        el.classList.remove('active');
+      }
+    });
+  
+    // Toggle the clicked one
+    const tooltip = document.getElementById(id);
+    tooltip.classList.toggle('active');
+  }
+
 document.addEventListener('click', (event) => {
     let menuIcon = document.querySelector("#menu-icon");
     let navList = document.querySelector(".navlist");
