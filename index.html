@@ -129,35 +129,32 @@
   <!--contact-->
     <section class="contact section_snap" id="contact">
       <h2>Contact Me</h2>
-        <div class="information">
-          <button id = "phoneIcon" class="phone-button" onclick="displayInfo('Phone')">
-            <i id = "blackPhone" class="fa fa-phone" style="color: #000000;"></i>
-            <i id = "whitePhone" class="fa fa-phone" style="color: #ffffff;"></i>
+      <div class="information">
+        <div class="tooltip-wrapper">
+          <button class="tooltip-button" onclick="toggleTooltip('Phone')">
+            <i class="fa fa-phone"></i>
           </button>
-
-          <button id = "emailIcon" class="email-button" onclick="displayInfo('Email')">
-            <i id = "blackEmail" class="fa fa-envelope" style="color: #000000;"></i>
-            <i id = "whiteEmail" class="fa fa-envelope" style="color: #ffffff;"></i>
-          </button>
-
-          <button id = "linkedinIcon" class="linkedin-button" onclick="displayInfo('Linkedin')">
-            <i id = "blackLinkedin" class="fa fa-linkedin" style="color: #000000;"></i>
-            <i id = "whiteLinkedin" class="fa fa-linkedin" style="color: #ffffff;"></i>
-          </button>
+          <div id="Phone" class="tooltip-text">+353 83 137 3379</div>
         </div>
-
-        <div class="information hiddenInfo">
-          <div id="Phone" class="phone-info" >
-            <p>+353 83 137 3379</p>
-          </div>
-          <div id="Email" class="email-info" >
-            <p>annika.jungfleisch01@gmail.com</p>
-          </div>
-          <div id="Linkedin" class="linkedin-info">
-		    <a href="https://www.linkedin.com/in/annika-jungfleisch/" target="_blank">
-            <p>annika-jungfleisch </p>
+      
+        <div class="tooltip-wrapper">
+          <button class="tooltip-button" onclick="toggleTooltip('Email')">
+            <i class="fa fa-envelope"></i>
+          </button>
+          <div id="Email" class="tooltip-text">annika.jungfleisch01@gmail.com</div>
+        </div>
+      
+        <div class="tooltip-wrapper">
+          <button class="tooltip-button" onclick="toggleTooltip('Linkedin')">
+            <i class="fa fa-linkedin"></i>
+          </button>
+          <div id="Linkedin" class="tooltip-text">
+            <a href="https://www.linkedin.com/in/annika-jungfleisch/" target="_blank">
+              annika-jungfleisch
+            </a>
           </div>
         </div>
+      </div>
         
       <div class="row">
         <div class="col-sm-6">
