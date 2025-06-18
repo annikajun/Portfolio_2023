@@ -12,7 +12,9 @@ h6{
 background-color: rgb(196, 165, 144);
 }
 
-header a {
+header {
+  width: 50%;
+  left: 0;
   background-color:  rgb(196, 165, 144);
 }
 
