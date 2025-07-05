@@ -73,8 +73,6 @@ Through this project, I applied front-end technologies like HTML5, CSS3, JavaScr
 * [![JavaScript][JavaScript]][JavaScript-url]
 * [![JQuery][JQuery]][JQuery-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
@@ -91,6 +89,9 @@ Project Link: [https://github.com/annikajun/Portfolio_2023](https://github.com/a
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [product-screenshot]: img/portfolio23_ss.png
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/annikajun
 
 [HTML5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [HTML5-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
