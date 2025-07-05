@@ -25,7 +25,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/annikajun/Portfolio_2023">
-    <img src="img/about_circle.png" alt="Logo" width="80" height="80">
+    <img src="img/about_circle.png" alt="Logo" width="100" height="100">
   </a>
 
 <h3 align="center">Portfolio 2023</h3>
@@ -91,7 +91,7 @@ Project Link: [https://github.com/annikajun/Portfolio_2023](https://github.com/a
 [product-screenshot]: img/portfolio23_ss.png
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/annikajun
+[linkedin-url]: https://linkedin.com/in/annika-jungfleisch
 
 [HTML5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [HTML5-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
