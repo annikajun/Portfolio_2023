@@ -25,7 +25,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/annikajun/Portfolio_2023">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="img/about_circle.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Portfolio 2023</h3>
@@ -60,9 +60,8 @@
 
 [![Potfoilo Image][product-screenshot]](https://annikajun.github.io/Portfolio_2023)
 
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `annikajun`, `Portfolio_2023`, `twitter_handle`, `annika-jungfleisch`, `email_client`, `email`, `Portfolio 2023`, `Welcome to my portfolio website! I encourage you to check out my portfolio in the field of interaction design. I used my knowledge as a fourth year interaction design student to develop this website and create a space to showcase my work along the way.`, `project_license`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This project is a personal portfolio website created to showcase my work as a fourth-year Interaction Design student. The goal was to design and develop a space that reflects my design thinking, creativity, and technical skills. The site features selected projects from my academic journey, highlighting my approach to user experience, visual communication, and interactive design.
+Through this project, I applied front-end technologies like HTML5, CSS3, JavaScript, and jQuery to create a responsive and visually engaging portfolio. It also served as an opportunity to refine my coding skills while maintaining a strong emphasis on aesthetics and usability.
 
 
 
@@ -81,7 +80,7 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 <!-- CONTACT -->
 ## Contact
 
-Annika Jungfleisch - [![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 Project Link: [https://github.com/annikajun/Portfolio_2023](https://github.com/annikajun/Portfolio_2023)
 
