@@ -31,9 +31,11 @@
 <h3 align="center">Portfolio 2023</h3>
 
   <p align="center">
-    Welcome to my portfolio website! I encourage you to check out my portfolio in the field of interaction design. I used my knowledge as a fourth year interaction design student to develop this website and create a space to showcase my work along the way.
+    Welcome to my portfolio website (outdated)! I encourage you to check out my portfolio in the field of interaction design. I used my knowledge as a fourth year interaction design student to develop this website and create a space to showcase my work along the way.
     <br />
     <a href="https://annikajun.github.io/Portfolio_2023"><strong>Explore the Portfolio »</strong></a>
+    <br>
+    <a href="https://annikajun.github.io/portfolio"><strong>Explore my new Portfolio »</strong></a>
   </p>
 </div>
 
